@@ -51,100 +51,100 @@ export default function Home() {
           color: '#FFD700'
         }
     ];
-  //   return (
-  //       <div>
-  //           <div style={{textAlign: 'center'}}>
-  //               <h1 style={{ fontSize: '48px', fontWeight: 'bold'}}>Lazy Loading Experiment</h1>      
-  //               <h4 style={{ fontSize: '16px'}}>Developed By: Bharath Senthilkumar</h4>
-  //           </div>
-  //           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //             <div style={{ display: 'flex', justifyContent: 'center' }}>
-  //               <ComponentSSR component={components[1]} />
-  //               <ImageSSR imageUrl={"https://picsum.photos/500"} />
-  //             </div>
-  //           </div>
-  //       </div>
-  // );
+    return (
+        <div>
+            <div style={{textAlign: 'center'}}>
+                <h1 style={{ fontSize: '48px', fontWeight: 'bold'}}>CSR vs. SSR Experiment</h1>      
+                <h4 style={{ fontSize: '16px'}}>Developed By: Bharath Senthilkumar</h4>
+            </div>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <ComponentSSR component={components[1]} />
+                <ImageSSR imageUrl={"https://picsum.photos/500"} />
+              </div>
+            </div>
+        </div>
+  );
     return (
       <div>
           <div style={{textAlign: 'center'}}>
-              <h1 style={{ fontSize: '48px', fontWeight: 'bold'}}>Lazy Loading Experiment</h1>      
+              <h1 style={{ fontSize: '48px', fontWeight: 'bold'}}>CSR vs. SSR Experiment</h1>      
               <h4 style={{ fontSize: '16px'}}>Developed By: Bharath Senthilkumar</h4>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
